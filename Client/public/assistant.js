@@ -15,7 +15,7 @@
 
   link.rel = "stylesheet";
 
-  link.href = "https://shifra-ai-1lpi.onrender.com/assistant.css";
+  link.href = "https://shifra-1-jv2w.onrender.com/assistant.css";
 
   document.head.appendChild(link);
 
@@ -117,7 +117,7 @@
   const loadAssistant = async () => {
     try {
       const res = await fetch(
-        `https://shifra-ai-server.onrender.com/api/assistant/config/${userId}`,
+        `https://shifra-awda.onrender.com/api/assistant/config/${userId}`,
       );
 
       const data = await res.json();
@@ -232,7 +232,7 @@
         try {
           status.innerText = "Thinking...";
 
-          const res = await fetch("https://shifra-ai-server.onrender.com/api/assistant/ask", {
+          const res = await fetch("https://shifra-awda.onrender.com/api/assistant/ask", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
