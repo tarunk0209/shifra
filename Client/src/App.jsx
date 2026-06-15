@@ -8,8 +8,8 @@ import Builder from "./pages/Builder";
 import Billing from "./pages/Billing";
 import axios from "axios";
 import { Toaster } from "react-hot-toast";
-export const ServerUrl = "https://shifra-awda.onrender.com/";
-export const CLIENT_URL = "https://shifra-1-jv2w.onrender.com/";
+export const ServerUrl = "https://shifra-awda.onrender.com";
+export const CLIENT_URL = "https://shifra-1-jv2w.onrender.com";
 
 function App() {
   const [user, setUser] = useState(null);
