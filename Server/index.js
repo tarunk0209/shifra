@@ -16,7 +16,7 @@ const privateCors =
   cors({
 
     origin: [
-      "https://shifra-ai-1lpi.onrender.com",
+      "https://shifra-1-jv2w.onrender.com",
       "http://localhost:5173",
     ],
 
