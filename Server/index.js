@@ -17,7 +17,7 @@ const privateCors =
 
     origin: [
       "https://shifra-1-jv2w.onrender.com",
-      "http://localhost:5173",
+      "http://localhost:5173"
     ],
 
     credentials: true
